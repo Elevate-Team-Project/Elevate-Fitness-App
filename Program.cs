@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 var app = builder.Build();
-
+//tst
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
